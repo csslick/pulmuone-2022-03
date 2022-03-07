@@ -33,7 +33,13 @@ body {
   width: 100%;
   top: 70px;
   padding: 20px 15px;
+  display: none;
 }
+
+#gnb.on {
+  display: block;
+}
+
 #gnb > ul {
 }
 

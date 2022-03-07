@@ -16,11 +16,13 @@ body {
 }
 
 #main-header {
+  position: relative;
   height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 99;
 }
 
 #main-header > h1 {
@@ -52,11 +54,19 @@ body {
   padding-right: 15px;
   margin-right: 40px;
   border-style: none;
+  line-height: 30px;
 }
 
 #family-link:hover {
   cursor: pointer;
 }
+
+select, option {
+  padding: 10px;
+}
+
+
+
 
 #site-map-btn {
   margin-right: 20px;
@@ -65,5 +75,31 @@ body {
 }
 
 #site-map-btn:hover {
+  cursor: pointer;
+}
+
+
+.sitemap-modal {
+  position: fixed;
+  background: #000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sitemap-modal-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: transparent;
+  border-style: none;
+}
+
+#sitemap-modal-close:hover {
   cursor: pointer;
 }
