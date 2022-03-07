@@ -11,6 +11,39 @@
   <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
 </head>
 <body>
-  
+  <header id="main-header" class="container">
+    <h1>
+      <a href="./">
+        <img src="images/logo.png" alt="풀무원">
+      </a>
+    </h1>
+
+    <nav id="gnb">
+      <ul>
+        <li><a href="./">홈</a></li>
+        <li><a href="#">회사소개</a></li>
+        <li><a href="#">바른먹거리&로하스</a></li>
+        <li><a href="#">사회책임경영</a></li>
+        <li><a href="#">뉴스룸</a></li>
+      </ul>
+    </nav>
+
+    <div class="right-menu">
+      <!-- PC용 메뉴 버튼 -->
+      <select name="family-link" id="family-link" class="pc-only">
+        <option value="">Family Site 바로가기</option>
+        <option value="">link</option>
+        <option value="">link</option>
+        <option value="">link</option>
+      </select>
+      <button id="site-map-btn" class="pc-only">
+        <img src="images/toggle-btn.svg" alt="site map">
+      </button>
+      <!-- 모바일용 토글 버튼 -->
+      <button id="gnb-toggle-btn" class="mobile-only">
+        <img src="images/mobile-toggle-btn.svg" alt="main menu">
+      </button>
+    </div>
+  </header>
 </body>
 </html>
