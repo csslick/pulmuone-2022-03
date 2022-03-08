@@ -3,7 +3,7 @@
 1. 시안제작: PC, Mobile(반응형)
 2. 구현
   - PC, Mobile 반응형
-  - PC sitemap toggle - Javascript
+  - PC sitemap 모달 - Javascript
   - Mobile GNB Toggle - Javascript
   - Slider - Javascript plug-in
       옵션설정: direction(방향), effect(효과)...

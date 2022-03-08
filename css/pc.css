@@ -133,6 +133,7 @@ select, option {
   color: rgba(255,255,255, 0.8);
 }
 
+
 /* swiper slider */
 .swiper {
   width: 100%;
@@ -143,11 +144,13 @@ select, option {
 .swiper .swiper-slide.s1{
   background-image: url(../images/main-visual01.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .swiper .swiper-slide.s2{
   background-image: url(../images/main-visual02.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 .swiper .swiper-slide {
